@@ -53,13 +53,14 @@ def informar_indice(CLI):
     else:
         return f"{CLI:.2f}"
 
-
+ # Declarar variáveis
 texto = pedir_texto()
 num_letras = calcular_numero_letras(texto)
 num_palavras = calcular_numero_palavras(texto)
 num_frases = calcular_numero_frases(texto)
 CLI = calcular_CLI(texto)
 
+ # Print resultados finais
 print(f"Número de letras: {num_letras}")
 print(f"Número de palavras: {num_palavras}")
 print(f"Número de frases: {num_frases}")
